@@ -1,0 +1,15 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+  body {
+    overflow-y: auto; /* Activar el scroll vertical */
+}
+.card-body {
+    max-height: 200px; /* Ajusta la altura según sea necesario */
+    overflow-y: auto;
+}
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover;
+}
